@@ -3,7 +3,7 @@ window.onload = () => {if (sessionStorage.getItem('products') === null){
     addProductToProductList();
     listAllProducts();
     location.reload();
-    }if ((window.location.href).includes('homePage.html')){
+    }if ((window.location.href).includes('index.html')){
         
         let stuff = JSON.parse(sessionStorage.getItem('products'));
         for (let i = 0; i < 4; i++){
