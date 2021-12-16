@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>RL Items</title>
+        <meta name="description" content="">
+        <meta name="author" content="Clintano Perrins">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="styles.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+        <link rel="shortcut icon" type="image/jpeg" href="images/favicon.jpeg"/>
+        <link rel='stylesheet' href='https://themes.getbootstrap.com/wp-content/themes/bootstrap-marketplace/style.css?ver=1590611604' />
+
+          
+        
+
+
+    </head>
+    <body>
+        <!--navbar start-->
+      <div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="homePage.html">RL Items</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="homePage.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contactUs.html">Contact Us</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="storeItems.html">Shop</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav mb-lg-0" id="loginNavbar">
+                  <li class="nav-item">
+                    <a class="nav-link" id="userdetails" href="userdetails.html">User Details</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="login.html" id="loginlogout">Login</a>
+                  </li>
+                </ul>
+                <form class="form-inline form-navbar my-2 my-lg-0 order-2">
+                  <input class="form-control" name="s" type="text" placeholder="Search">
+              </form>
+              
+              <div>
+                <form class="container-fluid justify-content-start">
+                  <a class="btn btn-outline-secondary me-2" href="checkout.html" role="button" id="cartButton">Cart <span class="badge" id="cartCounter"></span> </a>
+                </form>
+            </div>
+                
+              </div>
+            </div>
+          </nav>
+    </div>
+    
+    <!--navbar end-->
+
+
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://rocketleague.media.zestyio.com/rl_frostyfest_coreart_norllogo.309bf22bd29c2e411e9dd8eb07575bb1.jpg" class="d-block w-100" style='height:38rem; object-fit: cover' alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://kcgb5f9l.media.zestyio.com/RLCS_KeyArt_210827--1-.jpg" class="d-block w-100" style='height:38rem; object-fit: cover;' alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="https://www.ginx.tv/uploads2/Rocket_League/pasted_image_0-688.png?ezimgfmt=ng%3Awebp%2Fngcb5%2Frs%3Adevice%2Frscb5-2" class="d-block w-100" style='height:38rem; object-fit: cover;' alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <section class="py-5 text-center container">
+      <div class="row py-lg-5">
+        <div class="col-lg-6 col-md-8 mx-auto">
+          <h1 class="fw-light">Welcome to the RL Shopfront</h1>
+          <p class="lead text">This website is about trading and purchasing digital items in Rocket League. Below is some of the most popular items listed from players!</p>
+          <p>
+            <a href="register.html" class="btn btn-primary my-2">Sign Up!</a>
+            <a href="storeItems.html" class="btn btn-secondary my-2">Visit the shop</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="album py-5 bg-light">
+      <div class="container">
+  
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" id="image0">
+
+              <div class="card-body" id='cardBody0'>
+                <p class="card-text" id='cardText0'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View in shop</button>
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+  
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" id="image1">
+
+              <div class="card-body" id='cardBody1'>
+                <p class="card-text" id='cardText1'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View in shop</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" id="image2">
+
+              <div class="card-body" id='cardBody2'>
+                <p class="card-text" id='cardText2'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">      
+                </div>
+                <div class="btn-group">
+                  <button type="button" class="btn btn-sm btn-outline-secondary">View in shop</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card shadow-sm h-100">
+              <img class="bd-placeholder-img card-img-top" width="100%" height="225" id="image3">
+              
+              <div class="card-body" id='cardBody3'>
+                <p class="card-text" id='cardText3'>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <button type="button" class="btn btn-sm btn-outline-secondary">View in shop</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="all-js/mainScript.js"></script>
+    <script src="all-js/shop.js"></script>
+    </body>
+</html>
