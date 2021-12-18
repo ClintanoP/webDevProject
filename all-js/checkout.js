@@ -75,7 +75,7 @@ function clearCart(){
 function loggedInStatus(){
     let status = sessionStorage.getItem('loggedIn');
     if (status == 1){
-        userDetails=JSON.parse(sessionStorage.getItem('userdetails'));
+        userDetails=JSON.parse(localStorage.getItem('userdetails'));
         document.getElementById("firstName").setAttribute('value',userDetails.firstName);
         document.getElementById("lastName").setAttribute('value',userDetails.lastName);
         document.getElementById("gamertag").setAttribute('value',userDetails.gamertag);
